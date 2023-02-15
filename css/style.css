@@ -10,6 +10,17 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+#btn {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+}
+
 /* Header start  */
 header {
     width: 100%;
@@ -53,4 +64,42 @@ nav ul li a:hover {
     text-decoration: underline;
 
 }
+
 /* header banner start  */
+.header_banner {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.header_banner_content {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.header_banner_content h1 {
+    font-weight: 700;
+    font-size: 6vw;
+    color: #131313;
+}
+
+.header_banner_content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.header_banner_thumbnail {
+    margin-top: 50px;
+
+}
+
+.header_banner_thumbnail img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+/* header end  */
